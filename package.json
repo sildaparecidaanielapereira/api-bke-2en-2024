@@ -1,0 +1,25 @@
+{
+  "name": "api-bke-2en-2024",
+  "version": "1.0.0",
+  "description": "api node.com express para o backend do 3 semestre e 2024(2024) ifsp",
+  "main": "src/serve.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sildaparecidaanielapereira/api-bke-2en-2024.git"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "zod",
+    "mvc"
+  ],
+  "author": "silda niela",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sildaparecidaanielapereira/api-bke-2en-2024/issues"
+  },
+  "homepage": "https://github.com/sildaparecidaanielapereira/api-bke-2en-2024#readme"
+}
