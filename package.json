@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "api node.com express para o backend do 3 semestre e 2024(2024) ifsp",
   "main": "src/serve.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/sildaparecidaanielapereira/api-bke-2en-2024/issues"
   },
-  "homepage": "https://github.com/sildaparecidaanielapereira/api-bke-2en-2024#readme"
+  "homepage": "https://github.com/sildaparecidaanielapereira/api-bke-2en-2024#readme",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
 }
