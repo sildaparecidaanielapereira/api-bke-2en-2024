@@ -1,16 +1,19 @@
 {
-  "name": "api-bke-2en-2024",
+  "name": "api-bke-express-2sem2024",
   "version": "1.0.0",
-  "description": "api node.com express para o backend do 3 semestre e 2024(2024) ifsp",
-  "main": "src/serve.js",
+  "description": "API Node com Express para o Backend do 2 Semestre de 2024 (3 Modulo) IFSP",
+  "main": "src/server.js",
   "type": "module",
   "scripts": {
     "start": "node src/server.js",
-    "dev": "node --watch src/server.js"
+    "dev": "node --env-file=.env --watch src/server.js",
+    "prisma:pull": "npx prisma db pull",
+    "prisma:push": "npx prisma db push",
+    "prisma:generate": "npx prisma generate"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sildaparecidaanielapereira/api-bke-2en-2024.git"
+    "url": "git+https://github.com/renancavichi/api-bke-express-2sem2024.git"
   },
   "keywords": [
     "api",
@@ -18,13 +21,18 @@
     "zod",
     "mvc"
   ],
-  "author": "silda niela",
+  "author": "Renan Cavichi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sildaparecidaanielapereira/api-bke-2en-2024/issues"
+    "url": "https://github.com/renancavichi/api-bke-express-2sem2024/issues"
   },
-  "homepage": "https://github.com/sildaparecidaanielapereira/api-bke-2en-2024#readme",
+  "homepage": "https://github.com/renancavichi/api-bke-express-2sem2024#readme",
   "dependencies": {
+    "@prisma/client": "^5.19.0",
+    "cors": "^2.8.5",
     "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.19.0"
   }
 }
