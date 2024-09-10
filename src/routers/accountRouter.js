@@ -1,9 +1,9 @@
 import express from 'express'
-import createController from '../../account/createController.js'
-import getByIdController from '../../account/getByIdController.js'
-import listController from '../../account/listController.js'
-import updateController from '../../account/updateController.js'
-import removeController from '../../account/removeController.js'
+import createController from '../controllers/account/createController.js'
+import getByIdController from '../controllers/account/getByIdController.js'
+import listController from '../controllers/account/listController.js'
+import updateController from '../controllers/account/updateController.js'
+import removeController from '../controllers/account/removeController.js'
 
 const router = express.Router()
 
